@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Цены на билеты — Речной круг</title>
+<meta name="description" content="Тарифы на проезд и экскурсии, калькулятор стоимости поездки и форма заявки на групповой билет.">
+<link rel="canonical" href="https://ВАШ-ПОДДОМЕН.ru/tickets.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Цены на билеты — Речной круг">
+<meta property="og:description" content="Тарифы на проезд и экскурсии, калькулятор стоимости поездки и форма заявки на групповой билет.">
+<meta property="og:url" content="http://u993784c.beget.tech/rechnoy-krug/tickets.html">
+<meta property="og:image" content="http://u993784c.beget.tech/rechnoy-krug/images/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230E3B43'/%3E%3Cpath d='M5 21c4-4 7 4 11 0s7 4 11 0' stroke='%23F2B705' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&amp;family=Unbounded:wght@500;700&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Цены на билеты — Речной круг","url":"https://ВАШ-ПОДДОМЕН.ru/tickets.html","description":"Тарифы на проезд и экскурсии, калькулятор стоимости поездки и форма заявки на групповой билет.","inLanguage":"ru"}
+</script>
+<!-- Yandex.Metrika counter -->
+<script>
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=113752930', 'ym');
+
+    ym(113752930, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+</head>
+<body>
+    <noscript><div><img src="https://mc.yandex.ru/watch/113752930" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<a class="skip" href="#main">К содержимому</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="Речной круг — на главную">Речной круг</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Меню</button>
+    <nav id="nav" aria-label="Основное меню"><ul><li><a href="index.html">Главная</a></li><li><a href="schedule.html">Расписание</a></li><li><a href="tickets.html" aria-current="page">Билеты</a></li><li><a href="fleet.html">Флот</a></li><li><a href="about.html">О нас</a></li><li><a href="contacts.html">Контакты</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<section class="wrap block">
+  <h1>Билеты и тарифы</h1>
+  <div class="table-wrap"><table><caption>Стоимость проезда</caption>
+    <thead><tr><th scope="col">Категория</th><th scope="col">Линии 1 и 2</th><th scope="col">Линия 3 (экскурсия)</th></tr></thead>
+    <tbody><tr><th scope='row'>Взрослый</th><td>120 ₽</td><td>350 ₽</td></tr><tr><th scope='row'>Школьник, студент</th><td>60 ₽</td><td>200 ₽</td></tr><tr><th scope='row'>Пенсионер</th><td>60 ₽</td><td>200 ₽</td></tr><tr><th scope='row'>Ребёнок до 7 лет</th><td>бесплатно</td><td>бесплатно</td></tr></tbody></table></div>
+</section>
+<section class="wrap block split">
+  <form class="card-form" id="calc" action="#" method="get" novalidate>
+    <h2>Сколько стоит поездка</h2>
+    <label for="cat">Категория</label>
+    <select id="cat" name="cat"><option value="120|350">Взрослый</option><option value="60|200">Школьник, студент, пенсионер</option></select>
+    <label for="route">Линия</label>
+    <select id="route" name="route"><option value="0">Линия 1 или 2</option><option value="1">Линия 3 (экскурсия)</option></select>
+    <label for="qty">Количество билетов</label>
+    <input id="qty" name="qty" type="number" min="1" max="50" value="1">
+    <p class="result" aria-live="polite">Итого: <output id="total" for="cat route qty">120 ₽</output></p>
+  </form>
+  <div><h2>Где купить</h2><ul class="plain"><li>В кассах на пристанях — наличными и картой</li><li>У экипажа на борту — только наличными</li><li>По телефону для групп от 10 человек</li></ul></div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div><strong>Речной круг</strong><p>Городское пассажирское пароходство.<br>Навигация: с 1 мая по 15 октября.</p></div>
+    <address>г. Заволжск, наб. Строителей, 1<br><a href="tel:+78005550142">8 (800) 555-01-42</a><br><a href="mailto:info@rechnoy-krug.example">info@rechnoy-krug.example</a></address>
+    <ul class="foot-links"><li><a href="index.html">Главная</a></li><li><a href="schedule.html">Расписание</a></li><li><a href="tickets.html" aria-current="page">Билеты</a></li><li><a href="fleet.html">Флот</a></li><li><a href="about.html">О нас</a></li><li><a href="contacts.html">Контакты</a></li></ul>
+  </div>
+  <p class="copy wrap">© 2026 Пароходство «Речной круг». Учебный проект, организация вымышленная.</p>
+</footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>
